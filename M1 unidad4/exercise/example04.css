@@ -1,0 +1,40 @@
+.caja {
+    
+    width: 300px;
+    padding: 10px 10px 0px 20px;
+    height: 280px;
+    color: yellow;
+    font-size: 18px;
+    font-family: 'BhuTuka Expanded One', cursive;
+    
+    /* box-shadow: 20px 40px 5px black; */
+    
+    background: #245eca;
+    background: linear-gradient(47deg,#245eca 0%, #47338d 20%);
+    background: -webkit-linear-gradient(47deg,#245eca 0%, #47338d 20%);
+    background: -moz-linear-gradient(47deg,#245eca 0%, #47338d 20%);
+    
+    box-shadow: 33px 10px 5px -4px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 33px 10px 5px -4px rgba(0,0,0,0.69);
+    -moz-box-shadow: 33px 10px 5px -4px rgba(0,0,0,0.69);
+    
+    border-radius: 20px;
+}  
+
+img {
+    padding-top: 20px; 
+    border-radius: 30%;
+}
+
+.texto {
+    background-color: gray;
+    padding: 10px;
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 2px solid black;
+}
+
+.texto p{
+    font-family: times new roman;
+    margin-top: 0; 
+}
