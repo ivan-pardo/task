@@ -1,0 +1,51 @@
+h1 {
+    font-family: monospace;
+    color: darkred; 
+}
+.img1 {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5%;
+}
+
+div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.class1 {
+    padding: 10px 5px 5px 10px;
+    background-color: pink;
+    height: 300px;
+    width: 390px;
+    font-family: 'Alumni Sans Inline One', cursive;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+.class2 {
+    font-family: 'Righteous', cursive;
+    background-color: green;
+    height: 400px;
+    width: 420px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0px 0px 0px;
+    font-size: 19px;
+}
+
+.class3 {
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.class4 {
+    height: 50px;
+    width: 80px;
+}
+
+.class5 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border-color:brown;
+    border-style: solid; 
+}
