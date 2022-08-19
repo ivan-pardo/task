@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="exercise1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">-X-</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Mansion X</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">@</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Power
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Fights</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Life</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder=". . . . . . . . . . . . . "
+                        aria-atomic="Search">
+                    <button class="btn btn-outline-success" type="submit">BUSQUEDA</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1>x-men</h1>
+    <br>
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" style="margin-left:260px;">
+                <div class="carousel-item active">
+                    <img src="Gambit.jpg" width="600" height="600" class="d-block " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="NightCrawler.jpg" width="600" height="600" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Wolverine.jpg" width="600" height="600" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Rogue.jpg" width="600" height="600" class="d-block" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Power</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Gambit</td>
+                    <td>Kinetic energy</td>
+                    <td>@gam</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>NightCrawler</td>
+                    <td>Teleportation</td>
+                    <td>@nighty</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Wolverine</td>
+                    <td>Claws and Regeneration</td>
+                    <td>@wolvi</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Rogue</td>
+                    <td>Absorption of powers</td>
+                    <td>@rose</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        GAMBIT
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        NIGHTCRAWLER
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#panelsStayOpen-collapseOne"
+                                                        aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                        WOLVERINE
+                                                    </button>
+                                                </h2>
+                                                <div id="panelsStayOpen-collapseOne"
+                                                    class="accordion-collapse collapse show"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <strong>This is the first item's accordion body.</strong> It is
+                                                        shown by default, until the collapse plugin adds the appropriate
+                                                        classes that we use to style each element. These classes control
+                                                        the overall appearance, as well as the showing and hiding via
+                                                        CSS transitions. You can modify any of this with custom CSS or
+                                                        overriding our default variables. It's also worth noting that
+                                                        just about any HTML can go within the
+                                                        <code>.accordion-body</code>, though the transition does limit
+                                                        overflow.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#panelsStayOpen-collapseTwo"
+                                                        aria-expanded="false"
+                                                        aria-controls="panelsStayOpen-collapseTwo">
+                                                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header"
+                                                                    id="panelsStayOpen-headingOne">
+                                                                    <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#panelsStayOpen-collapseOne"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="panelsStayOpen-collapseOne">
+                                                                        ROGUE
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="panelsStayOpen-collapseOne"
+                                                                    class="accordion-collapse collapse show"
+                                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header"
+                                                                    id="panelsStayOpen-headingTwo">
+                                                                    <button class="accordion-button collapsed"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#panelsStayOpen-collapseTwo"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="panelsStayOpen-collapseTwo">
+
+
+                                                            </div>
+
+                                                            <br>
+                                                            <div>
+                                                                <div class="card" style="width: 17rem; float: left;">
+                                                                    <img src="gamb.jpg" width="100" height="200"
+                                                                        class="card-img-top" alt="...">
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title">Card title</h5>
+                                                                        <p class="card-text">Some quick example text to
+                                                                            build on the card title and make up the bulk
+                                                                            of the
+                                                                            card's content.</p>
+                                                                        <a href="#" class="btn btn-primary">Mutant 1</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card" style="width: 17rem; float: left;">
+                                                                    <img src="night1.jpg" width="100" height="200"
+                                                                        class="card-img-top" alt="...">
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title">Card title</h5>
+                                                                        <p class="card-text">Some quick example text to
+                                                                            build on the card title and make up the bulk
+                                                                            of the
+                                                                            card's content.</p>
+                                                                        <a href="#" class="btn btn-primary">Mutant 2</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card" style="width: 17rem; float: left;">
+                                                                    <img src="wol1.jpg" width="100" height="200"
+                                                                        class="card-img-top" alt="...">
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title">Card title</h5>
+                                                                        <p class="card-text">Some quick example text to
+                                                                            build on the card title and make up the bulk
+                                                                            of the
+                                                                            card's content.</p>
+                                                                        <a href="#" class="btn btn-primary">Mutant 3</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card" style="width: 17rem; float: left">
+                                                                    <img src="rogue1.jpg" width="100" height="200"
+                                                                        class="card-img-top" alt="...">
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title">Card title</h5>
+                                                                        <p class="card-text">Some quick example text to
+                                                                            build on the card title and make up the bulk
+                                                                            of the
+                                                                            card's content.</p>
+                                                                        <a href="#" class="btn btn-primary">Mutant 4</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card" style="width: 17rem; ">
+                                                                    <img src="mr sinister.jpg" width="100" height="200"
+                                                                        class="card-img-top" alt="...">
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title">Card title</h5>
+                                                                        <p class="card-text">Some quick example text to
+                                                                            build on the card title and make up the bulk
+                                                                            of the
+                                                                            card's content.</p>
+                                                                        <a href="#" class="btn btn-primary">Mutant 5</a>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <div>
+                                                                    <form class="row gy-2 gx-3 align-items-center">
+                                                                        <div class="col-auto">
+                                                                            <label class="visually-hidden"
+                                                                                for="autoSizingInput">Name</label>
+                                                                            <input type="text" class="form-control"
+                                                                                id="autoSizingInput"
+                                                                                placeholder="Name of Mutant  ">
+                                                                        </div>
+                                                                        <div class="col-auto">
+                                                                            <label class="visually-hidden"
+                                                                                for="autoSizingInputGroup">Username</label>
+                                                                            <div class="input-group">
+                                                                                <div class="input-group-text">@</div>
+                                                                                <input type="text" class="form-control"
+                                                                                    id="autoSizingInputGroup"
+                                                                                    placeholder="Username">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-auto">
+                                                                            <label class="visually-hidden"
+                                                                                for="autoSizingSelect">Preference</label>
+                                                                            <select class="form-select"
+                                                                                id="autoSizingSelect">
+                                                                                <option selected>Choose...</option>
+                                                                                <option value="1">Gambit</option>
+                                                                                <option value="2">NightCrawler</option>
+                                                                                <option value="3">Wolverine</option>
+                                                                                <option value="4">Rogue</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="col-auto">
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input"
+                                                                                    type="checkbox"
+                                                                                    id="autoSizingCheck">
+                                                                                <label class="form-check-label"
+                                                                                    for="autoSizingCheck">
+                                                                                    NO EXIT
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-auto">
+                                                                            <button type="submit"
+                                                                                class="btn btn-secondary">GO</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            <script
+                                                                src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+                                                                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+                                                                crossorigin="anonymous"></script>
+</body>
+
+</html>

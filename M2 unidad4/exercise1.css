@@ -1,0 +1,15 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: #778899;
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+}
