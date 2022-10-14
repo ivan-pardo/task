@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+
+<script>
+	
+	var bar = mayor(parseInt(prompt("Ingrese el tamaño del array: ")));
+
+
+	function mayor(cant) {
+
+		var bar = [];
+		var w = 0;
+		var pos = 0;
+
+		while (w < cant) {
+			
+			var q = parseInt(prompt("escriba un numero para añadir: "));
+			bar.push(q);
+			w++
+		}
+		
+
+		for (var i = 0; i < bar.length; i++) {
+			
+
+			if (bar[i] > pos) {
+
+				pos = bar[i];
+			}
+		}
+		document.write(bar);
+		document.write("<br>")
+		return document.write("el mayor es " + pos);
+	}
+
+</script>

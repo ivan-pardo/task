@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xcersie 1</title>
+    <style>
+        .box {
+            display: flex;
+        }
+
+        .red {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+        }
+
+        .yellow {
+            width: 150px;
+            height: 150px;
+            background-color: yellow;
+        }
+
+        .green {
+            width: 150px;
+            height: 150px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="red">RED</div>
+        <div class="yellow">YELLOW</div>
+        <div class="green">GREEN</div>
+    </div>
+
+    <script>
+        const red = document.querySelector(".red");
+        const yellow = document.querySelector(".yellow");
+        const green = document.querySelector(".green");
+        const body = document.querySelector("body");
+
+        red.addEventListener('click', function () {
+            body.style.backgroundColor = "red";
+        });
+
+        yellow.addEventListener('click', function () {
+            body.style.backgroundColor = "yellow";
+        });
+
+        green.addEventListener('click', function () {
+            body.style.backgroundColor = "green";
+        });
+
+        console.log(red);
+        console.log(yellow)
+        console.log(green);
+    </script>
+</body>
+
+</html>
