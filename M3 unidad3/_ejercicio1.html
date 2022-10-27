@@ -3,27 +3,26 @@
 <script>
 
 	var distancia = parseInt(prompt("Ingres la distancia: "));
-	var pie = 1000;
 
 
 	if (distancia >= 0 && distancia <= 1000) {
 
-		document.write("Pie");
+		document.write("Pie ");
 	}
 
-	if (distancia => 1000 && distancia <= 10000) {
+	if (distancia >= 1000 && distancia <= 10000) {
 
-		document.write("Bicicleta");
+		document.write("Bicicleta ");
 	}
 
-	if (distancia => 10000 && distancia <= 30000) {
+	if (distancia >= 10000 && distancia <= 30000) {
 
-		document.write("Colectivo");
+		document.write("Colectivo ");
 	}
 
-	if (distancia => 30000 && distancia <= 100000) {
+	if (distancia >= 30000 && distancia <= 100000) {
 
-		document.write("Auto");
+		document.write("Auto ");
 	}
 
 	if (distancia > 100000) {
