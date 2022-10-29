@@ -5,7 +5,7 @@ const ClasesPage = (props) => {
         <main className="holder">
             <div className="profesores">
                 <div className="profesor">
-                    <img src="image/" alt="" />
+                    <img src="image/clases/bateria.jpg" alt="" />
                     <div className="textoclases">
                         <h4>Laura Casas</h4>
                         <p>Docente de Bateria</p>
