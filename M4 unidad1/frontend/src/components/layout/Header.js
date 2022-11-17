@@ -1,15 +1,10 @@
-import React from "react";
-import "../../styles/components/layout.css";
+import React from 'react';
 
-const Header = (props) => {
-    return (
+const Header = (propos) =>{
+    return(
         <header>
-            <div className="holder">
-                <div className="contennedor">
-                    <img src="image/logo.jpg" width="250" alt="musicshop" />
-                    <h1>MusicShop</h1>
-                </div>
-            </div>
+            <img src='image/logo.jpg' width='250' alt='logomusicshop' />
+            <h1>MusicShop</h1>
         </header>
     );
 }
