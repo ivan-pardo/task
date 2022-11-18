@@ -1,0 +1,66 @@
+.contacto {
+    display: flex;
+    gap: 24px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.contacto h2{
+    margin-left: 25%;
+}
+
+.contacto div {
+    width: 100%;
+    background-color: #b92c54;
+    color: rgb(219, 209, 209);
+    box-shadow: 0 0 6px black;
+    margin-bottom: 5%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 16px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    margin-left: 15px;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 90px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #db8ba3;
+    width: 100px;
+    color: rgb(248, 242, 242);
+    margin-left: 95px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #581427;
+}
+
+.datos h2,
+p {
+    text-align: center;
+    margin: 22px;
+}
+
+.datos ul li {
+    margin: 15px;
+}

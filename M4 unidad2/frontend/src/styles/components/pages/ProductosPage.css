@@ -1,0 +1,31 @@
+.instrumento {
+    height: 300px;
+    width: 800px;
+    box-shadow: 0 0 6px 5px;
+    display: flex;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.instrumento img {
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+}
+
+.boxinstrumento {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 55px;
+}
+
+.boxinstrumento h4 {
+    color: brown;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.boxinstrumento:hover {
+    font-size: 19px;
+}

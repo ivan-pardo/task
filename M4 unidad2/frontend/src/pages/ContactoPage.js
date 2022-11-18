@@ -1,26 +1,27 @@
-import React from "react";
+import React from 'react';
+import '../styles/components/pages/ContactoPage.css';
 
 const ContactoPage = (props) => {
     return (
-        <main className="holder">
+        <main className='holder'>
             <div className="contacto">
                 <div>
                     <h2>Envia tu Mensaje</h2>
-                    <form action="" class="formulario">
+                    <form action="" className="formulario">
                         <p>
-                            <label for="nombre">Nombre</label>
+                            <label htmlFor="nombre">Nombre</label>
                             <input type="text" />
                         </p>
                         <p>
-                            <label for="email">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input type="text" />
                         </p>
                         <p>
-                            <label for="tel">Telefono</label>
+                            <label htmlFor="tel">Telefono</label>
                             <input type="text" />
                         </p>
                         <p>
-                            <label for="mensaje">Mensaje</label>
+                            <label htmlFor="mensaje">Mensaje</label>
                             <textarea name="" id="" cols="30" rows="10"></textarea>
                         </p>
                         <p>

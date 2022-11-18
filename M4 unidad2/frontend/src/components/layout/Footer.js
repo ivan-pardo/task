@@ -1,11 +1,9 @@
-import React from "react";
-import "../../styles/components/layout.css";
+import React from 'react';
+import '../../styles/components/layout/Footer.css';
 
 const Footer = (props) => {
-    return (
-        <footer>
-            <p>Derechos reservados&copy; MusicShop_¥van/2022</p>
-        </footer>
+    return(
+        <footer>Diseñado por &copy;¥van/2022 </footer>
     );
 }
 

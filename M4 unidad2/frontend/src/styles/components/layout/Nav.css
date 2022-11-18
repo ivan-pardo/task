@@ -1,0 +1,35 @@
+nav {
+    background-color: rgb(129, 30, 30);
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    flex-grow: 1;
+
+}
+
+nav ul li a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
+
+nav ul li a.activo {
+    background: rgb(34, 32, 32);
+}
+
+nav ul li a:hover {
+    background-color: rgb(61, 51, 51);
+}
