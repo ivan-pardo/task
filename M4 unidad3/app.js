@@ -7,6 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var productosRouter = require('./routes/productos');
 var clasesRouter = require('./routes/clases');
+var galeriaRouter = require('./routes/galeria');
 var contactoRouter = require('./routes/contacto');
 
 var app = express();
@@ -24,19 +25,24 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/productos', productosRouter);
 app.use('/clases', clasesRouter);
+app.use('/galeria', galeriaRouter);
 app.use('/contacto', contactoRouter);
 
 
 app.get('/productos', function (req,res) {
-  res.send('Soy la pagina de PRODUCTOS')
+  res.send('Soy la pagina de PRODUCTOS');
 })
 
 app.get('/clases', function(req,res) {
-  res.send('Soy la pagina de CLASES')
+  res.send('Soy la pagina de CLASES');
+})
+
+app.get('/galeria', function(req,res){
+  res.send('Soy la pagina de GALERIA');
 })
 
 app.get('/contacto', function(req,res) {
-  res.send('Soy la pagina de CONTACTO')
+  res.send('Soy la pagina de CONTACTO');
 })
 
 // catch 404 and forward to error handler
