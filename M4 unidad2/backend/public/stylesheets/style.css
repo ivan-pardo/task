@@ -1,0 +1,45 @@
+body {
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(187, 58, 58, 1) 46%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+header h1 {
+  font-size: 90px;
+  color: white;
+  display: inline-block;
+  font-family: 'Kanit', sans-serif;
+  margin-left: 45px;
+  margin-top: 35px;
+}
+
+header img {
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(111, 24, 44);
+  font-size: 15px;
+  font-style: italic;
+  background-color: lightslategray;
+}
